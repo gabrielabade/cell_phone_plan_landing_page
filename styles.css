@@ -1,0 +1,141 @@
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0 144px 42px;
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.button-header {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 124px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.logo-image {
+    margin-left: 121px;
+    top: 246px;
+    display: inline-block;
+}
+section {
+    display: inline-block;
+    margin-left:85px;
+    width: 493px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    height: 164px;
+    margin-bottom: 47px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    height: 99px;
+
+}
+
+.button-main {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6FBF44;
+    background: transparent;
+    border: none;
+    margin-top: 55px;
+    margin-bottom: 290px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:720px) {
+
+.link-header {
+    display: none;
+}
+
+.logo-image {
+    /*position: static;
+    max-width: 90%;*/
+    display: block;
+    margin: 5px auto;
+    max-width: 100%;
+    
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 278px;
+    height: 60px;
+    
+}
+
+p {
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center;
+    width: 304px;
+    height: 165px;
+   
+}
+.button-header {
+    display: block;
+    margin-left: 80%;
+    width: 100px;
+    height:50px;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-main {
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    width: 65%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+img {
+    order: 2;
+}
+section {
+    order: 1;
+
+}
+}
